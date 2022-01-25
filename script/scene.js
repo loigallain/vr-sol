@@ -26,3 +26,7 @@ const canvas = document.getElementById("renderCanvas"); // Get the canvas elemen
         window.addEventListener("resize", function () {
                 engine.resize();
         });
+
+        window.addEventListener("click", function(){
+                console.log("hellow you did click on babylon scene");
+        })
